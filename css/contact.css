@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.contact-page > .contact-main{
+    border-radius: 5px;
+}
+.contact-main > .part-2{
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: rgb(56, 59, 61);
+}
+.part-2 .invitation{
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.part-2 .contact-links{
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* body .common-footer{
+    justify-content: space-around;
+} */
+
+@media screen and (max-width: 710px){
+    .part-2{
+        flex-direction: column;
+        align-items:  center;
+    }
+}
+
+
+

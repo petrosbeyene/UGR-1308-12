@@ -1,0 +1,92 @@
+h1{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+body{
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+body > .about-main{
+    border: 1px silver solid;
+    border-radius: 5px;
+}
+
+.about-main > .description{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    padding: 2em;
+}
+.principles{
+    display: flex;
+    border: 1px silver solid;
+    margin: 1em;
+}
+.principles > article{
+    margin: 1em;
+    font-family: Helvetica, sans-serif;
+}
+.principles >article >article{
+    padding: 1em;
+}
+.principles article h3{
+    color: rgb(133, 145, 199);
+}
+#q-head{
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 3em;
+}
+#para-2nd{
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: 20px;
+    color: rgb(49, 83, 238);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-main a{
+    color: white;
+    font-size: 24px;
+}
+.part-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-2 a{
+    border: 1px silver solid;
+    border-radius: 5px;
+    background-color: rgb(32, 35, 37)
+    
+}
+.part-3 {
+    display: flex;
+    justify-content: space-around;
+}
+.part-3 li{
+    border: 1px silver solid;
+    border-radius: 5px;
+    background-color: rgb(32, 35, 37);
+    align-items: center;
+    max-width: max-content;
+}
+ .about-main img{
+    padding: 5px;
+}
+
+@media screen and (max-width: 580px){
+    .part-3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .part-3 li{
+        margin-bottom: 2em;
+    }
+    .principles{
+        flex-direction: column;
+    }
+
+}
+
